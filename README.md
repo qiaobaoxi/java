@@ -1,14 +1,14 @@
 # java
-    System.out.println("您好");
+        System.out.println("您好");
         Scanner in = new Scanner(System.in);
-    //        System.out.println("echo:"+in.nextLine());
-    final int amont=100;
-    int price;
-    price=in.nextInt();
-    System.out.println(amont+"-"+price+"="+(amont-price)); 
+    //  System.out.println("echo:"+in.nextLine());
+        final int amont=100;
+        int price;
+        price=in.nextInt();
+        System.out.println(amont+"-"+price+"="+(amont-price)); 
     
     
-    // TODO Auto-generated method stub
+    //  TODO Auto-generated method stub
         System.out.println("您好");
         Scanner in = new Scanner(System.in);
         // System.out.println("echo:"+in.nextLine());
