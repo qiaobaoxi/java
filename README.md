@@ -19,3 +19,16 @@
         System.out.print("请输入金额");
         price=in.nextInt();
     
+       Scanner in =new Scanner(System.in);
+        int x;
+        int y;
+        System.out.println("请输入两个数");
+        x = in.nextInt();
+        y = in.nextInt();
+        int max=0;
+        if(x>y) {
+        	max=x;
+        }else {
+        	max=y; 
+        }
+        System.out.println(max);
