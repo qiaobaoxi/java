@@ -32,3 +32,17 @@
         	max=y; 
         }
         System.out.println(max);
+        
+        int type=1;
+        switch(type) {
+          case 1:
+	          System.out.println("nihao");
+	          break;
+          case 2:
+	          System.out.println("nihao1");
+	          break;
+          case 3:
+	          System.out.println("nihao3");
+	          break;    
+              
+        }
