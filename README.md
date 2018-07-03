@@ -68,6 +68,17 @@
 	  }
 	}
 	
+	public static boolean isPrime(int i){
+	  boolean isPrime = true;
+	  for( int k=2; k<i;k++){
+	    if(i % k == 0){
+	      isPrime = false;
+	      break;
+	    }
+	    return isPrime;
+	  }
+	 
+	}
 	
 	
 	
